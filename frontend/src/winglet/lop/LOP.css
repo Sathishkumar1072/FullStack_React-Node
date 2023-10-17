@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+body {
+    font-family: 'Montserrat', sans-serif !important;
+    color: #42526E;
+  }
+.lop-container {
+    /* background-color: green; */
+    margin: auto;
+    max-width: 996px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+}
+.lop-container .headline{
+    font-weight: 600;
+    color:#253858;
+    font-size: 36px;
+    box-sizing: border-box;
+    padding-left: 12px;
+}
+.lop-container  .sublines {
+    font-size: 21px;
+    width: 100%;
+    max-width: 761px;
+    line-height: 1.5;
+    padding-left: 12px;
+    box-sizing: border-box;
+}
+.lop-container .service-box .service-icon {
+    width: 100%;
+    /* height: 145px; */
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lop-container .service-box {
+    background: #F7F4F2;
+    padding: 30px;
+    text-align: center;
+    cursor: pointer;
+    width: -webkit-fill-available;
+}
+.lop-container .service-box-items {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.lop-container .service-box .service-headline {
+    font-size: 30px;
+    /* margin-bottom: 21px; */
+    margin-bottom: 25px;
+    /* letter-spacing: 0.8px; */
+}
+.lop-container .service-sublines {
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 1.5;
+    color: #42526E;
+}
+.service-container { 
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr;
+    padding: 30px;
+    /* padding: 18px 40px 18px 22px; */
+    grid-gap: 60px;
+    margin-top: -20px;
+}
+@media (min-width: 768px) {
+.service-container { 
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    /* padding: 15px; */
+    /* padding: 18px 40px 18px 22px; */
+    grid-gap: 60px;
+}
+}
